@@ -19,6 +19,7 @@ public class Persona {
     private Sesso sesso;
 
     @ManyToOne
+    @JoinColumn(name = "gara_di_atletica_id")
     private GaraDiAtletica garaDiAtletica;
 
     /*COSTRUTTORE VUOTO*/
